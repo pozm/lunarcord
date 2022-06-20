@@ -1,11 +1,6 @@
-[package]
-name = "lunar-cord"
-version = "0.1.0"
-edition = "2021"
-
 [workspace]
 members = [
-    "./lunar-cord",
+    "./lunar-cord/src-tauri",
     "./discord-http",
     "./discord-ws"
 ]
